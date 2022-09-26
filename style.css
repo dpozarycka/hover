@@ -1,0 +1,72 @@
+div {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+
+.about {
+    margin: 20px;
+    background: darkblue;
+    transition: 1s;
+    height: 200px;
+    flex: 1;
+    display: inline-block;
+    line-height: 200px;
+}
+
+.about:hover {
+    background: rgb(133, 133, 240);
+    border-radius: 50px;
+    cursor: url(heart-solid.svg), auto;
+
+}
+
+.shop {
+    margin: 20px;
+    height: 200px;
+    flex: 1;
+    display: inline-block;
+    line-height: 200px;
+    transition: 1s;
+    background: violet;
+}
+
+.shop:hover {
+    transform: rotate(1turn);
+    border-radius: 100px;
+    cursor: url(pagelines.svg), auto;
+}
+
+
+.faq {
+    background: skyblue;
+    margin: 20px;
+    height: 200px;
+    flex: 1;
+    display: inline-block;
+    line-height: 200px;
+    transition: 1s ease-in-out;
+}
+
+.faq:hover {
+    background-image: url(image.jpg);
+    opacity: 0;  
+    cursor: url(fish-solid.svg), auto; 
+    opacity: 0.5;
+}
+
+
+
+
+
+
+/* .fade {
+    opacity: 0.6;    
+}
+
+.fade:hover {
+    opacity: 1;
+    color: white;
+    text-decoration:underline overline;
+} */
